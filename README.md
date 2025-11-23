@@ -45,7 +45,7 @@ Controle total sobre cada item e integração nativa gerando enquetes automátic
 * **Plataforma:** Automate (LlamaLab).
 * **Banco de Dados:** SQLite (com lógica de migração mensal).
 * **Comunicação:** Cloud Message (Firebase) e SHA256.
-* **Automação de Interface:** Utiliza **XPath / UI Automation** para interagir com elementos da tela do WhatsApp e criar listas e enquetes formatadas.
+* **Automação de Interface:** Utiliza **XPath / UI Automation** para interagir com elementos da tela do WhatsApp e criar enquetes formatadas.
 
 ## ⚙️ Instalação e Configuração Inicial
 
@@ -58,14 +58,14 @@ Controle total sobre cada item e integração nativa gerando enquetes automátic
 4.  Conceda todas as permissões solicitadas (Armazenamento, Sobreposição de Tela, Acessibilidade).
 
 ### Passo 2: Configuração do Servidor (Primeiro Uso)
-1.  Ao rodar o fluxo pela primeira vez, ele verificará a ausência do arquivo de login.
+1.  Ao rodar o fluxo do servidor pela primeira vez, ele verificará a ausência do arquivo do email do servidor.
 2.  O sistema irá pedir para configurar um **E-mail Google** e uma **Senha**.
 3.  A senha será usada para gerar a chave de criptografia **SHA256**, garantindo a segurança do canal de comunicação Servidor/Cliente.
 4.  Após a validação, o arquivo de login será criado e o dispositivo será o **Servidor Mestre** da família.
 
-## 🔋 Dica de Performance e Bateria (Instrução Corrigida)
+## 🔋 Dica para Economizar Armazenamento
 
-A complexidade deste fluxo fará com que o **histórico de execução (log do flow)** cresça rapidamente, consumindo bateria e armazenamento desnecessariamente.
+A complexidade deste fluxo fará com que o **histórico de execução (log do flow)** cresça rapidamente, consumindo armazenamento desnecessariamente.
 
 **Recomendação:**
 Para otimizar o uso e a performance, desative o registro de atividades do flow:

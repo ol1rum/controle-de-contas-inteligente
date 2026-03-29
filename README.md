@@ -30,7 +30,7 @@ Sistema completo de gestão financeira pessoal e familiar, desenvolvido em **Aut
 O sistema oferece um menu centralizado e uma visualização clara de todas as despesas.
 <p float="left">
   <img src="screenshots/menu.jpg" width="45%" />
-  <img src="screenshots/lista_Contas_fic.jpg" width="45%" /> 
+  <img src="screenshots/lista_contas_fic.jpg" width="45%" /> 
 </p>
 
 ### Funcionalidades Avançadas

@@ -30,14 +30,14 @@ Sistema completo de gestão financeira pessoal e familiar, desenvolvido em **Aut
 O sistema oferece um menu centralizado e uma visualização clara de todas as despesas.
 <p float="left">
   <img src="screenshots/menu.jpg" width="45%" />
-  <img src="screenshots/lista_Contas.jpg" width="45%" /> 
+  <img src="screenshots/lista_Contas_fic.jpg" width="45%" /> 
 </p>
 
 ### Funcionalidades Avançadas
 Controle total sobre cada item e integração nativa gerando enquetes automáticas no WhatsApp.
 <p float="left">
   <img src="screenshots/acoes_item.jpg" width="45%" />
-  <img src="screenshots/enviar_contas.jpg" width="45%" />
+  <img src="screenshots/enviar_contas_fic.jpg" width="45%" />
 </p>
 
 ## 🛠 Stack Tecnológica
